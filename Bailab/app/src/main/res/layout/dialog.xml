@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:text="Product Name"
+        android:textSize="17dip" />
+    <EditText
+        android:id="@+id/edtProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:text="Price"
+        android:textSize="17dip" />
+    <EditText
+        android:id="@+id/edtProductPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:inputType="number"
+        android:paddingTop="10dip"
+        android:text="Description"
+        android:textSize="17dip" />
+    <EditText
+        android:id="@+id/edtProductDes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:lines="4" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnSave"
+            android:text="Save"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btnDel"
+            android:text="Delete"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tvId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
